@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>VedKrishna - NGO</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="shortcut icon" href=".\favicon.ico">
+        <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+        <link href="css/layout.css" type="text/css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.5/jquery.mobile-1.4.5.min.css">
+
+        <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+        <script src="js/init.js"></script>
+        <script src="js/materialize.js"></script>
+    </head>
+    
+    <body>
+        <div class="navbar-fixed ">
+               <nav>
+              <div class="nav-wrapper white">
+                  <img src="images/name2.png" height="65" width="260" alt="ngo_name">
+                   <img src="logo3.png" class="image-responsive" height="65" width="260" alt="logo">  
+                   <img src="images/logo1.png"  height="65" width="160" alt="logo" align="right">     
+    
+             </div>
+             </nav>
+              </div>
+       <nav class="grey darken-4" role="navigation">
+       <div>
+      <!--<a id="logo-container" href="#" class="brand-logo">Logo</a>-->
+            <ul class="left hide-on-med-and-down">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">What we do</a></li>
+                <li><a href="#">Contribute</a></li>
+            </ul>
+          <ul id="menulist" class="side-nav" style="left: -250px;">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="#">What we do</a></li>
+                <li><a href="#">Contribute</a></li>
+            </ul>
+      <a href="#" data-activates="menulist" class="button-collapse">
+      <i class="material-icons">menu</i></a>
+            <div class="col s6">
+            <a href="donateform.html"> <img src="images/donatenow.jpg" height="65" width="60" alt="donate" align="right">     </a>
+            </div> 
+      </div>
+    </nav>  
+        
+        
+     <div class="fixed-action-btn" style="bottom: 55px; right: 24px;">
+     <a class="btn-floating btn-large black ">     <!--<i class="large material-icons">mode_edit</i>-->
+         <img class="circle" src="images/socialicon1.png" height="70" width="80">
+     </a>
+    <ul>
+        <li>
+            <a href="http://www.facebook.com/" target="_blank" class="btn-floating blue">
+            <img src="images/facebook.png">
+         </a>
+        </li>
+      <li>
+          <a href="http://www.twitter.com/" target="_blank" class="btn-floating blue">
+          <img src="images/twitter.png">
+        </a>
+      </li>
+      <li>
+          <a href="http://www.youtube.com/" target="_blank" class="btn-floating blue">
+          <img src="images/youtube.jpg">
+          </a>
+        </li>
+      <li>
+          <a href="http://www.linkedin.com/" target="_blank" class="btn-floating blue">
+          <img src="images/linkedin.jpg">
+          </a>
+      </li>
+      <li>
+          <a href="http://www.pinterest.com/" target="_blank" class="btn-floating blue">
+          <img src="images/pint.png">
+          </a>
+      </li>
+      <li>
+          <a href="http://www.instagram.com/" target="_blank" class="btn-floating blue">
+         <img src="images/insta.png">
+          </a>
+      </li>
+      </ul>
+         </div>
+        </nav>
+        <!--main part-->
+         
+           <div class="center">
+               <img src="images/donate2.jpg">
+             <img src="images/donate4.jpg">
+           </div>
+        <div class="row">
+    <div class="col s12">
+      <ul class="tabs">
+        <li class="tab col s3"><a href="#test1">Donate now</a></li>
+        <li class="tab col s3"><a class="active" href="#test2">Donate Monthly</a></li>
+        <li class="tab col s3 disabled"><a href="#test3">Donate Securities</a></li>
+        <li class="tab col s3"><a href="#test4">Fundraise</a></li>
+      </ul>
+    </div>
+        </div>  
+        <!--Tab1 starts-->
+
+    <div id="test1" class="col s2">
+                      Make a one-time donation to this charity now using a credit card 
+                      Donation Amount:    
+  
+    <form class="col s2">
+      <div class="row">
+        <div class="input-field col s12">
+           <input placeholder="" id="first_name" type="number" class="validate" min="1000" max="99999">
+            <label for="first_name">1.Donation amount</label>
+        </div>
+            <label>&nbsp;2.You can select to apply your donation to a specific fund set up by this charity.</label> 
+        <div class="input-field col s12">
+           
+             <select>
+              <option value="" disabled selected>Choose your option</option>
+              <option value="1">School and Education</option>
+              <option value="2">General</option>
+              <option value="3">Residence</option>
+            </select>  
+     
+        </div>
+      <div class="input-field col s12">
+           
+          <textarea id="textarea1" class="materialize-textarea"></textarea>
+          <label for="textarea1">3.You can include a message to this charity.</label>
+        </div>
+      </div>
+     </form>
+<!--Tab1 complete-->
+<!--Tab2 starts-->
+    </div>
+    <div id="test2" class="col s12">
+        <p> Schedule monthly donations using a credit card or PayPal™ account.
+            <BR><br>
+It’s an easy way to make a big impact and helps the charity plan.
+Choose the day of the month for your first donation.
+We’ll charge you on the same day every month thereafter for the remainder of the period you set.
+        </p>    
+    
+ <form id="donate_monthly" method="post">
+    <!-- <input type="hidden" name="csrfmiddlewaretoken" value="p86P43gNHDYG938vo35O4W6A9SVxF2mp"> 
+     <input id="id_donate_monthly-donate_type" name="donate_monthly-donate_type" type="hidden" value="monthly">
+     <input id="id_donate_monthly-donation_source" name="donate_monthly-donation_source" type="hidden" value="CharityProfileNonSourced">
+     <input id="id_donate_monthly-donation_source_id" name="donate_monthly-donation_source_id" type="hidden">
+     <input id="id_donate_monthly-charity_dot_net_id" name="donate_monthly-charity_dot_net_id" type="hidden" value="12820">
+     <input id="id_donate_monthly-amount" name="donate_monthly-amount" type="hidden">
+     -->
+     <div>
+         <div class="row"><div class="col-md-4 col-lg-offset-1"><div id="div_id_donate_monthly-start_date" class="clearfix form-group"><label for="donate_monthly_dp_id_donate_monthly-start_date" class="control-label requiredField">
+            Start My Monthly Donations on:
+        </label><div class="controls"><div id="donate_monthly_dp_id_donate_monthly-start_date" class="input-group date" data-date-format="yyyy-mm-dd" data-date-start-date="2015-12-04"><input class="datepicker dateinput form-control native-date" data-min="2015-12-04" id="id_donate_monthly-start_date" name="donate_monthly-start_date" type="date" value="2015-11-26"> <span class="input-group-addon calendar-addon" style="display: none;"><i class="glyphicon glyphicon-calendar"></i></span></div><div></div></div></div></div><div class="col-md-6"><div id="div_id_donate_monthly-donation_end_type" class="form-group"><label for="id_donate_monthly-donation_end_type_0" class="control-label  requiredField">
+				End My Monthly Donations:<span class="asteriskField">*</span></label><div class="controls "><label class="radio"><input type="radio" checked="checked" name="donate_monthly-donation_end_type" id="id_donate_monthly-donation_end_type_1" value="no-end">When I Notify You (I won't set an End Date now)
+        </label><label class="radio"><input type="radio" name="donate_monthly-donation_end_type" id="id_donate_monthly-donation_end_type_2" value="set-date">Before This Date
+        <div id="div_id_donate_monthly-end_date" class="clearfix form-group"><div class="controls"><div id="donate_monthly_dp_id_donate_monthly-end_date" class="input-group date" data-date-format="yyyy-mm-dd" data-date-start-date="None"><input class="datepicker dateinput form-control native-date" id="id_donate_monthly-end_date" name="donate_monthly-end_date" type="date" value="2015-12-26"> <span class="input-group-addon calendar-addon" style="display: none;"><i class="glyphicon glyphicon-calendar"></i></span></div><div></div></div></div></label><label class="radio"><input type="radio" name="donate_monthly-donation_end_type" id="id_donate_monthly-donation_end_type_3" value="set-number">After Completing The Following Number of Donations
+        <div id="div_id_donate_monthly-number_of_donations" class="form-group"><div class="controls "><input class="small-input numberinput form-control" id="id_donate_monthly-number_of_donations" name="donate_monthly-number_of_donations" type="number"> </div></div></label></div></div></div></div><p>You can select to apply your donation to a specific fund set up by this charity.</p><div class="row"><div class="col-lg-offset-1 col-lg-11 col-md-12"><div class="select-chosen"><div id="div_id_donate_monthly-fund" class="form-group"><div class="controls "><select class="select form-control" id="id_donate_monthly-fund" name="donate_monthly-fund" style="display: none;"><option value="36241">2. School Residency Program Fund</option><option value="36243">3. Kids Go Global Fund</option><option value="40963">4. High-Needs Schools - Residency Fund</option><option value="40964">5. First Nations Schools - Residency Fund</option><option value="168468">General</option><option value="36240">!. General Fund</option></select><div class="chosen-container chosen-container-single" style="width: 50%;" title="" id="id_donate_monthly_fund_chosen"><a class="chosen-single" tabindex="-1"><span>2. School Residency Program Fund</span><div><b></b></div></a><div class="chosen-drop"><div class="chosen-search"><input type="text" autocomplete="off"></div><ul class="chosen-results"></ul></div></div></div></div></div></div></div><label class="title-label">You can include a message to this charity.</label><div class="row charity-message-row"><div id="div_id_donate_monthly-charity_message" class="form-group"><div class="controls "><textarea class="character-counter textarea form-control" cols="40" data-counterformat="%1 of 1200 left" data-maxlength="1200" id="id_donate_monthly-charity_message" name="donate_monthly-charity_message" rows="10"></textarea><span class="character-count">1200 of 1200 left</span></div></div></div><p>Make your donation in memory, honour or in celebration of someone.  You can choose from a variety of e-cards for every occasion, personalize them to fit the recipient, and schedule the delivery day. </p><div class="row flush no-gutter dedication-row"><div class="col-md-3 dedication-type-col"><div id="div_id_donate_monthly-dedication_type" class="form-group"><div class="controls "><label class="radio"><input type="radio" checked="checked" name="donate_monthly-dedication_type" id="id_donate_monthly-dedication_type_1" value="no-thanks">No thanks.
+        </label><label class="radio"><input type="radio" name="donate_monthly-dedication_type" id="id_donate_monthly-dedication_type_2" value="in-honour-of">Donate in honour of:
+        </label><label class="radio"><input type="radio" name="donate_monthly-dedication_type" id="id_donate_monthly-dedication_type_3" value="in-memory-of">Donate in memory of:
+        </label></div></div></div><div class="col-md-5 dedication-col"><div id="div_id_donate_monthly-dedication" class="form-group" style="display: none;"><div class="controls "><input class="textinput textInput form-control" data-maxlength="255" id="id_donate_monthly-dedication" maxlength="255" name="donate_monthly-dedication" type="text"> </div></div><div class="form-group"><div id="div_id_donate_monthly-ecard_optin" class="checkbox" style="display: none;"><label for="id_donate_monthly-ecard_optin" class=""><input class="checkboxinput checkbox" id="id_donate_monthly-ecard_optin" name="donate_monthly-ecard_optin" type="checkbox">
+                    Yes I'd like to send a free eCard
+                    
+
+
+    
+
+
+
+
+    
+
+
+
+                </label></div></div></div></div><div class="row"><button type="submit" class="btn btn-primary btn-md pull-right ladda-button" id="submit-id-continue" name="continue" data-style="expand-left"><span class="ladda-label">Continue with My Donation</span></button> </div></form>
+
+        </div>
+    
+    
+    
+    
+    
+    <!--Tab2 complete-->
+    </div>
+   
+    
+    <div id="test3" class="col s12"><!--in process--></div>
+    <div id="test4" class="col s12">Test 4</div>
+  </div>
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        <!--
+        
+        <div><span class="blue-text text-darken-2">
+                <h5><u>BANK DETAILS</h2></u>
+              </span>
+          
+            <span class="grey-text text-darken-2"><strong>ACCOUNT NAME :</strong>  VEDKRISHNA NGO<br>
+    <strong>ORIENTAL BANK OF COMMERCE A/c number : </strong>062011011561234<br>
+    <strong>IFSC CODE :</strong> ORBC01008554<br>
+    <strong>Branch :</strong> Dwarka, DELHI 110004<br>
+    </div>
+    <img src="images/donate1.jpg" style="float:left; width:100%; margin-bottom:20px;">       
+        <!--end of main part-->
+
+<div class="divider"></div>
+<div class="divider"></div>
+
+<footer  class="page-footer black">
+    <div>
+       <span class="white-text">          
+           <center>  © 2014 Copyright Text<p> Copyright © vedkrishna_ngo.com. All Right Reserved. </p></center>
+       </span>
+            </div>            
+    
+
+</footer>
+        
+        
+    </body>
+    
+    
+</html>

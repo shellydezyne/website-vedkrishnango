@@ -1,0 +1,118 @@
+Meta tags have to be placed in the so called HEAD part of the website. For example, we want to sell wooden garden furniture on our website. We start very simple by adding a title, keywords and a description. Take a look at the example below. We use colored letters in this example so it makes reading HTML easier. The colors have no effect or influence on the results in a search engine.
+
+Step 1 Adjust the title in the source
+
+The first phrase you will see and will click on in the search engines is the title. Make sure your title is effective and attractive. 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+ <head>
+  <title>All our wooden furniture is water proof.</title>
+ </head>
+
+<body>
+
+  This is a test text
+
+</body>
+</html>
+Step 2 Adding keywords - keyword meta tag example
+
+Add maximal 20 keywords and seperate them from each other by a comma en a space.
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+ <head>
+  <title>All our wooden furniture is water proof.</title>
+  <meta name="keywords" content="wood, furniture, garden, garden-table, etc.">
+
+ </head>
+
+<body>
+
+  This is a test text
+
+</body>
+</html>
+ 
+Step 3 Adding a relevant description - meta description tag
+ 
+
+The description are the phrases that will appear under every title in Google, Yahoo, Bing and other search engines.  The search engines show the description you add to your meta tags so it's important to make a relevant description for every single page on your website.
+
+ 
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+ <head>
+  <title>All our wooden furniture is water proof.</title>
+  <meta name="keywords" content="wood, furniture, garden, garden-table, etc.">
+  <meta name="description" content="Official dealer of wooden garden furniture.">
+
+ </head>
+
+<body>
+
+  This is a test text
+
+</body>
+</html>
+ 
+Step 4 Provide relevant information
+
+Without a doubt a good website has to provide good information. If writing relevant text is not your thing, you should hire a writer to help you make your text relevant and easy to read.
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<html>
+ <head>
+  <title>All our wooden furniture is water proof.</title>
+  <meta name="keywords" content="wood, furniture, garden, garden-table, etc">
+  <meta name="description" content="Official dealer of wooden garden furniture.">
+
+ </head>
+
+<body>
+
+  Visit our showroom on weekdays from 9 to 5...
+
+</body>
+</html>
+
+Think like a customer
+ 
+
+This is just an example, very simple, so it's quite clear what the meaning is. Making correct meta tags is an accurate job!
+
+Don't use words like computers, travel, books, gifts, consultancy in your text. The number of hits is enormous, for some more than 10.000. Give extra information and the change your site will be found is increasing. Focus on the words you think your customer will be searching under and will find you, or emphasize on specific details that might be interesting for your visitor. Choosing the right words determine if your site will be found.
+
+ 
+
+After choosing the right words , read here how to add meta tags to your website.
+
+ 
+Attention : what if you use frames ?
+ 
+We suggest that you DON'T use frames! Also read our page about frame set help.
+
+ 
+We have an online generator that helps you to make good and relevant meta tags.  But we ask you to make an effort yourself. On every page of your website you have to add relevant and unique meta tags. It's not done to copy and paste the meta tags on your first page and add them on every other page. If your competitor does make an effort to place good meta tags on every page, his site will be ranked higher.
+
+So if you want results, you have to make an effort and learn how to create meta tags!
+
+Now you know how to make meta tags, read how you can How to add Meta tags to your website (place meta tags)place them in your website. 
+******************************************************
+
+Examples
+Example 1 - Define keywords for search engines:
+
+<meta name="keywords" content="HTML, CSS, XML, XHTML, JavaScript">
+Example 2 - Define a description of your web page:
+
+<meta name="description" content="Free Web tutorials on HTML and CSS">
+
+Example 3 - Define the author of a page:
+
+<meta name="author" content="Hege Refsnes">
+Example 4 - Refresh document every 30 seconds:
+*********************************************************
+https://www.youtube.com/watch?v=L50PcDFK9es
+********************************************************
+
+
+<meta http-equiv="refresh" content="30">

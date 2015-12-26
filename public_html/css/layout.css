@@ -1,0 +1,43 @@
+
+#rcorners2 {
+    border-radius: 25px;
+    border: 2px solid #73AD21;
+    padding: 20px; 
+    width: auto;
+    height: auto; 
+}
+.parallax-container {
+      height:500px;
+    }
+   .myresponsive {
+        width : 100%; /* or max-width : 100% */
+        height: auto; 
+    }
+ #nav {
+    position:relative;
+    width:620px;
+    margin:0 auto; 
+    margin-top:50px;
+    padding:10px;
+}
+   ul#navigation {
+
+    margin:0px auto;
+    position:relative;
+    float:left;
+    border-left:1px solid #c4dbe7;
+    border-right:1px solid #c4dbe7;
+   }
+  ul#navigation li:hover > ul
+{
+/*these 2 styles are very important, 
+
+being the ones which make the drop-down to appear on hover */
+
+    visibility:visible;
+
+    opacity:1;
+
+}
+
+ 
